@@ -144,7 +144,7 @@ nav a:hover {
 
 .slider-section {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -630,7 +630,7 @@ input {
     .cards {
 
         width: 230px;
-        height: 300px;
+        height: 230px;
 
     }
 
@@ -767,6 +767,16 @@ input {
         justify-content: space-around;
         gap: 5px;
         
+    }
+
+      .float {
+        left: 15%;
+        width: 500px;
+        height: 400px;
+        background-color: #fffbef8e;
+        display: flex;
+        backdrop-filter: blur(6px);
+
     }
 
 
