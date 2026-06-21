@@ -734,6 +734,11 @@ input {
         font-size: 36px;
     }
 
+    .sidebar a:hover{
+        font-size: 46px;
+        font-weight: 400;
+    }
+
     .link-form {
         width: 100%;
         display: flex;
