@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    width: 100vw;
+    min-width: 100vw;
 }
 
 nav {
@@ -135,7 +135,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     padding: 30px 40px;
-    margin-top: 7px;
+    margin-top: 50px;
     margin-bottom: 20px;
     padding-right: 20px;
     padding-left: 20px;
@@ -629,14 +629,9 @@ input {
 
     .cards {
 
-        width: 180px;
-        height: 180px;
+        width: 230px;
+        height: 300px;
 
-    }
-
-    .subtext {
-        text-align: center;
-        font-size: 13px;
     }
 
     .slider-section {
@@ -700,10 +695,6 @@ input {
         width: 100%;
         justify-content: space-between;
         align-items: center;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        align-items: flex-start;
     }
 
     .close-img {
@@ -727,8 +718,8 @@ input {
     }
 
     .float {
-        left: 10%;
-        width: 80%;
+        left: 25%;
+        width: 100%;
         height: auto;
         background-color: #fffbef8e;
         display: flex;
@@ -746,12 +737,12 @@ input {
         flex-direction: column;
         justify-content: left;
         gap: 30px;
-        align-items: flex-start;
+        align-items: first baseline;
         left: 0px;
-
+        
     }
 
-    .product-grid {
+     .product-grid {
 
         grid-template-columns: 1fr;
 
@@ -766,68 +757,18 @@ input {
 
     .newsletter {
 
-        width: 100%;
-        display: flex;
-        flex-direction: columnn;
+        width: 20%;
     }
+
     .link-form {
         width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        gap: 20px;
-        align-items: flex-start;
-
+        gap: 5px;
+        
     }
 
-    .logo-links{
-        flex-direction: column;
-        align-items: flex-start;
-    }
 
-    .float {
-        left: 3%;
-        width: 250px;
-        height: 300px;
-        background-color: #fffbef2c;
-        display: flex;
-        backdrop-filter: blur(9px);
-        padding: 10px 10px;
 
-    }
-.float h3 {
-    font-size: 22px;
-}
-
-input{
-    display: flex;
-    flex-direction: column;
-}
-footer{
-    
-    flex-direction: column;
-
-}
-.other-container h3{
-    font-size: 23px;
-}
-
- .cards {
-
-        height: 120px;
-        width: 200px;
-
-    }
-
-    .menu-img{
-        left: 0;
-      
-    }
-    .img-display{
-        width: 100%;
-        gap: 8px;
-    }
-    .display h4{
-        font-size: 10px;
-    }
 }
