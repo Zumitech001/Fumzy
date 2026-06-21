@@ -1,523 +1,833 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fumzy</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <nav>
-
-    <ul class="sidebar">
-      <li onclick=hideSidebar()>
-        <a href="#"><img  src="./img/close.png" height="26px" /></a>
-      </li>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Shop</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-
-    <a>
-      <h2 class="logo">Fumzy</h2>
-    </a>
-    <div navlinks>
-      <ul>
-        <li class="hideOnMobile"><a href="#">Home</a></li>
-        <li class="hideOnMobile"><a href="#">Shop</a></li>
-        <li class="hideOnMobile"><a href="#">About</a></li>
-        <li class="hideOnMobile"><a href="#">Contact</a></li>
-      </ul>
-    </div>
-
-    <div class="icons-user">
-      <li class="hideOnMobile">
-        <a href="#"><img src="./img/user.svg" height="26px" /></a>
-      </li>
-      <li class="hideOnMobile">
-        <a href="#"><img src="./img/search.svg" height="26px" /></a>
-      </li>
-      <li class="hideOnMobile">
-        <a href="#"><img src="./img/love.svg" height="26px" /></a>
-      </li>
-      <li class="hideOnMobile">
-        <a href="#"><img src="./img/cart.svg" height="26px" /></a>
-      </li>
-      <li onclick=showSidebar()>
-        <a href="#"><img class="close-img" src="./img/menu.png" style="width:30px;"></a>
-      </li>
-
-    </div>
-
-
-  </nav>
-
-
-  <!-- hero section -->
-  <section class="container">
-    <div class="float">
-      <p class="float-head">New Arrival</p>
-      <h3 class="hero-text">
-        Discover Our <br />
-        New collection
-      </h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. deserunt
-        mollit anim id est laborum.
-      </p>
-      <button>BUY NOW</button>
-    </div>
-  </section>
-
-  <!-- furniture display -->
-  <section class="other-container">
-    <h3 class="header">Browse The Range</h3>
-    <p class="subtext">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    </p>
-
-    <div class="img-display">
-      <div class="cards">
-        <img src="./img/Dining.jpg" class="display" />
-        <h4 class="display-tag">Dining</h4>
-      </div>
-
-      <div class="cards">
-        <img src="./img/v.jpg" class="display" />
-        <h4 class="display-tag">Living</h4>
-      </div>
-
-      <div class="cards">
-        <img src="./img/bed.jpg" class="display" />
-        <h4 class="display-tag">Bedroom</h4>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- product catalogue -->
-  <section class="product-section">
-    <h3 class="header">Our Products</h3>
-    <div class="product-grid">
-      <div class="card">
-        <div class="discount-tag">
-          <h3>-40%</h3>
-        </div>
-        <img src="./img/5.jpg" class="card-img" />
-
-        <div class="card-content">
-          <h3 class="card-header">Sylthering</h3>
-          <p class="card-subtext">Stylish cafe Chair</p>
-          <h3 class="card-header">Rp 2.500.000</h3>
-        </div>
-
-        <!-- pop overlay -->
-
-        <div class="card-overlay">
-          <div class="transition-overlay">
-            <button class="cart-btn" type="button">Add to Cart</button>
-
-            <div class="reaction">
-              <div>
-                <img src="./img/shareW.svg" alt="" style="width: 20px" class="icon" />
-                <p>Share</p>
-              </div>
-
-              <div>
-                <img src="./img/arrow.svg" alt="" style="width: 20px" class="icon" />
-                <p>Compare</p>
-              </div>
-
-              <div>
-                <img src="./img/love.svg" alt="" style="width: 20px" class="icon" />
-                <p>Love</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="discount-tag" style="background-color: rgb(10, 226, 226)">
-          <h3>-40%</h3>
-        </div>
-        <img src="./img/2.jpg" class="card-img" />
-
-        <div class="card-content">
-          <h3 class="card-header">Leviosa</h3>
-          <p class="card-subtext">Stylish cafe Chair</p>
-          <h3 class="card-header">Rp 2.500.000</h3>
-        </div>
-
-        <!-- pop overlay -->
-
-        <div class="card-overlay">
-          <div class="transition-overlay">
-            <button class="cart-btn" type="button">Add to Cart</button>
-
-            <div class="reaction">
-              <div>
-                <img src="./img/shareW.svg" alt="" style="width: 20px" class="icon" />
-                <p>Share</p>
-              </div>
-
-              <div>
-                <img src="./img/arrow.svg" alt="" style="width: 20px" class="icon" />
-                <p>Compare</p>
-              </div>
-
-              <div>
-                <img src="./img/love.svg" alt="" style="width: 20px" class="icon" />
-                <p>Love</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="discount-tag">
-          <h3>-40%</h3>
-        </div>
-        <img src="./img/bed.jpg" class="card-img" />
-
-        <div class="card-content">
-          <h3 class="card-header">Sylthering</h3>
-          <p class="card-subtext">Stylish cafe Chair</p>
-          <h3 class="card-header">Rp 2.500.000</h3>
-        </div>
-
-        <!-- pop overlay -->
-
-        <div class="card-overlay">
-          <div class="transition-overlay">
-            <button class="cart-btn" type="button">Add to Cart</button>
-
-            <div class="reaction">
-              <div>
-                <img src="./img/shareW.svg" alt="" style="width: 20px" class="icon" />
-                <p>Share</p>
-              </div>
-
-              <div>
-                <img src="./img/arrow.svg" alt="" style="width: 20px" class="icon" />
-                <p>Compare</p>
-              </div>
-
-              <div>
-                <img src="./img/love.svg" alt="" style="width: 20px" class="icon" />
-                <p>Love</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="discount-tag" style="background-color: rgb(10, 226, 226)">
-          <h3>-40%</h3>
-        </div>
-        <img src="./img/v.jpg" class="card-img" />
-
-        <div class="card-content">
-          <h3 class="card-header">Lolito</h3>
-          <p class="card-subtext">Stylish cafe Chair</p>
-          <h3 class="card-header">Rp 2.500.000</h3>
-        </div>
-
-        <!-- pop overlay -->
-
-        <div class="card-overlay">
-          <div class="transition-overlay">
-            <button class="cart-btn" type="button">Add to Cart</button>
-
-            <div class="reaction">
-              <div>
-                <img src="./img/shareW.svg" alt="" style="width: 20px" class="icon" />
-                <p>Share</p>
-              </div>
-
-              <div>
-                <img src="./img/arrow.svg" alt="" style="width: 20px" class="icon" />
-                <p>Compare</p>
-              </div>
-
-              <div>
-                <img src="./img/love.svg" alt="" style="width: 20px" class="icon" />
-                <p>Love</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="discount-tag">
-          <h3>-40%</h3>
-        </div>
-        <img src="./img/room.jpg" class="card-img" />
-
-        <div class="card-content">
-          <h3 class="card-header">Respira</h3>
-          <p class="card-subtext">Stylish cafe Chair</p>
-          <h3 class="card-header">Rp 2.500.000</h3>
-        </div>
-
-        <!-- pop overlay -->
-
-        <div class="card-overlay">
-          <div class="transition-overlay">
-            <button class="cart-btn" type="button">Add to Cart</button>
-
-            <div class="reaction">
-              <div>
-                <img src="./img/shareW.svg" alt="" style="width: 20px" class="icon" />
-                <p>Share</p>
-              </div>
-
-              <div>
-                <img src="./img/arrow.svg" alt="" style="width: 20px" class="icon" />
-                <p>Compare</p>
-              </div>
-
-              <div>
-                <img src="./img/love.svg" alt="" style="width: 20px" class="icon" />
-                <p>Love</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="discount-tag" style="background-color: rgb(10, 226, 226)">
-          <h3>-40%</h3>
-        </div>
-        <img src="./img/2.jpg" class="card-img" />
-
-        <div class="card-content">
-          <h3 class="card-header">Sylthering</h3>
-          <p class="card-subtext">Stylish cafe Chair</p>
-          <h3 class="card-header">Rp 2.500.000</h3>
-        </div>
-
-        <!-- pop overlay -->
-
-        <div class="card-overlay">
-          <div class="transition-overlay">
-            <button class="cart-btn" type="button">Add to Cart</button>
-
-            <div class="reaction">
-              <div>
-                <img src="./img/shareW.svg" alt="" style="width: 20px" class="icon" />
-                <p>Share</p>
-              </div>
-
-              <div>
-                <img src="./img/arrow.svg" alt="" style="width: 20px" class="icon" />
-                <p>Compare</p>
-              </div>
-
-              <div>
-                <img src="./img/love.svg" alt="" style="width: 20px" class="icon" />
-                <p>Love</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="discount-tag">
-          <h3>-40%</h3>
-        </div>
-        <img src="./img/5.jpg" class="card-img" />
-
-        <div class="card-content">
-          <h3 class="card-header">Sylthering</h3>
-          <p class="card-subtext">Stylish cafe Chair</p>
-          <h3 class="card-header">Rp 2.500.000</h3>
-        </div>
-
-        <!-- pop overlay -->
-
-        <div class="card-overlay">
-          <div class="transition-overlay">
-            <button class="cart-btn" type="button">Add to Cart</button>
-
-            <div class="reaction">
-              <div>
-                <img src="./img/shareW.svg" alt="" style="width: 20px" class="icon" />
-                <p>Share</p>
-              </div>
-
-              <div>
-                <img src="./img/arrow.svg" alt="" style="width: 20px" class="icon" />
-                <p>Compare</p>
-              </div>
-
-              <div>
-                <img src="./img/love.svg" alt="" style="width: 20px" class="icon" />
-                <p>Love</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="discount-tag" style="background-color: rgb(10, 226, 226)">
-          <h3>-40%</h3>
-        </div>
-        <img src="./img/Dining.jpg" class="card-img" />
-
-        <div class="card-content">
-          <h3 class="card-header">Sylthering</h3>
-          <p class="card-subtext">Stylish cafe Chair</p>
-          <h3 class="card-header">Rp 2.500.000</h3>
-        </div>
-
-        <!-- pop overlay -->
-
-        <div class="card-overlay">
-          <div class="transition-overlay">
-            <button class="cart-btn" type="button">Add to Cart</button>
-
-            <div class="reaction">
-              <div>
-                <img src="./img/shareW.svg" alt="" style="width: 20px" class="icon" />
-                <p>Share</p>
-              </div>
-
-              <div>
-                <img src="./img/arrow.svg" alt="" style="width: 20px" class="icon" />
-                <p>Compare</p>
-              </div>
-
-              <div>
-                <img src="./img/love.svg" alt="" style="width: 20px" class="icon" />
-                <p>Love</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <button class="show-more-btn">Show more</button>
-  </section>
-
-  <!-- Image-display section -->
-  <section class="slider-section">
-    <div class="column1">
-      <h1>50+ Beautiful rooms <br />Inspiration</h1>
-      <p>
-        Our designer already made alot of beautiful <br />
-        prototipe that inspires you
-      </p>
-      <button class="inspo-btn">explore More</button>
-    </div>
-
-    <!-- responsiveness -->
-
-
-    <div class="responsive">
-      <h1>50+ Beautiful rooms Inspiration</h1>
-      <p>
-        Our designer already made alot of beautiful
-        prototipe that inspires you
-      </p>
-      <button class="inspo-btn">explore More</button>
-    </div>
-
-    <div class="img-slide-column">
-      <!-- slide1 -->
-      <div class="group">
-        <div class="image-spin">
-          <img src="./img/room.jpg" class="img-s" />
-        </div>
-
-        <!-- slide2 -->
-        <div class="image-spin">
-          <img src="./img/bed.jpg" class="img-s" />
-        </div>
-
-        <!-- slide3 -->
-        <div class="image-spin"><img src="./img/2.jpg" class="img-s" /></div>
-        <!-- slide4 -->
-        <div class="image-spin">
-          <img src="./img/Dining.jpg" class="img-s" />
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- section -->
-
-  <footer>
-    <div class="logo-links">
-      <div class="business-deatails">
-        <h2 class="logo">Fumzy</h2>
-        <p style="color: rgb(128, 126, 126)">
-          400 University drivea suit 200 Coral <br />Gables <br />FL 3314 USA
-        </p>
-      </div>
-
-      <!-- links -->
-      <div class="links">
-        <p style="color: rgb(128, 126, 126)">links</p>
-        <a href="index.html"><span>Home</span></a>
-        <a href=""><span>Shop</span></a>
-        <a href=""><span>About </span></a>
-      </div>
-    </div>
-
-    <div class="link-form">
-      <div class="links">
-        <p style="color: rgb(128, 126, 126)">Help</p>
-        <a href="index.html"><span>Payment Options </span></a>
-        <a href=""><span>Repairs</span></a>
-        <a href=""><span>Privacy </span></a>
-      </div>
-
-      <!-- newsletter -->
-      <div class="newsletter">
-        <p style="color: rgb(128, 126, 126); margin-top: 0px">Newsletter</p>
-        <form action="" style="display: flex; flex-direction: row; gap: 5px">
-          <input type="email" placeholder="Enter your email address" />
-          
-        </form>
-        <button style="
-              border-bottom: 1px solid #ccc;
-              padding: 5px 10px;
-              font-weight: 500;
-              text-transform: uppercase;
-              background: transparent;
-              cursor: pointer;
-              border: none;
-              color: black;
-              border-bottom: 1px solid #ccc;
-            ">
-            Subscribe
-          </button>
-      </div>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Hammersmith One, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100vw;
+}
+
+nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    padding: 0 30px;
+
+}
+
+li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: rgb(180, 151, 97);
+    font-size: 25px;
+    font-weight: 300;
+
+}
+
+.close-img {
+    display: none;
+}
+
+.icons-user {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    cursor: pointer;
+    /* margin-left: 10%; */
+}
+
+.logo {
+    display: flex;
+    height: fit-content;
+    /* padding: 5px 30px; */
+    align-items: center;
+    justify-content: baseline;
+    margin-right: auto;
+    font-size: 29px;
+    font-family: poppins;
+    color: #070303;
+    cursor: pointer;
+}
+
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: slider 12s infinite;
+    justify-content: center;
+}
+
+@keyframes slider {
+
+    0%,
+    33% {
+        background-image: url(./img/2.jpg);
+    }
+
+    34%,
+    66% {
+        background-image: url(./img/1.jpg);
+    }
+
+    66%,
+    100% {
+        background-image: url(./img/room.jpg);
+    }
+
+}
+
+.other-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+
+}
+
+.product-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.slider-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #f7f3e8;
+
+}
+
+.header {
+    font-size: 30px;
+}
+
+.subtext {
+    color: rgb(78, 77, 77);
+    font-size: 16px;
+    margin-top: 7px;
+
+}
+
+.float {
+    width: 40%;
+    height: auto;
+    display: flex;
+    padding: 50px 30px;
+    border-radius: 12px;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fffbef;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    z-index: 1;
+}
+
+.float button {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #B88E2F;
+    width: 200px;
+    height: 70px;
+    font-weight: 400;
+    border-style: none;
+    padding: 20px 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 27px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.float h3 {
+    font-size: 62px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 12;
+    margin-top: 0;
+
+}
+
+.float-head {
+
+    font-family: Arial;
+    padding: 0px 10px;
+    color: #0e0a01;
+
+}
+
+
+
+button:hover {
+    background-color: #0e0a01;
+    color: #ffffff;
+}
+
+.img-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    width: 380px;
+    height: 300px;
+    align-items: center;
+}
+
+.display {
+    width: 100%;
+    height: 400px;
+    border-radius: 12px;
+}
+
+.display-tag {
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+.product-grid {
+    display: grid;
+    width: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #f8f8f8;
+    width: 270px;
+    height: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.1);
+    margin-top: 30px;
+    position: relative;
+    padding: 0 20px;
+}
+
+.card-overlay {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.card-overlay:hover {
+    background: rgba(49, 48, 46, 0.63);
+}
+
+.transition-overlay {
+    transform: translateY(60%);
+    position: absolute;
+    opacity: 0;
+    height: 100%;
+    bottom: 0;
+    transition: 0.5s;
+}
+
+.transition-overlay:hover {
+    opacity: 2;
+    transform: translateY(25%);
+
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.discount-tag {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 0, 85);
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.discount-tag h3 {
+    position: relative;
+    font-size: 10px;
+    color: #fff;
+}
+
+.cart-btn {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #070303;
+    font-weight: 300;
+    border-style: none;
+    /* border-radius: 6px; */
+    padding: 5px 25px;
+    width: 210px;
+    height: 50px;
+    top: -20;
+}
+
+
+.cart-btn:hover {
+    background-color: rgb(219, 3, 93);
+}
+
+.reaction {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    gap: 10px;
+}
+
+.reaction div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.reaction div p {
+    display: flex;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.show-more-btn {
+    width: 200px;
+    height: 40px;
+    padding: 0px 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #B88E2F;
+    border-color: #B88E2F;
+    border: 2px solid #B88E2F;
+    margin-top: 40px;
+}
+
+.show-more-btn:hover {
+    background-color: #B88E2F;
+}
+
+.column1 {
+    width: 30%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.responsive {
+    display: none;
+}
+
+.column1 p {
+    color: grey;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.img-slide-column {
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    /* background-color: transparent; */
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    overflow-x: auto;
+    background: linear-gradient(to right, transparent, #faeabc, transparent);
+
+}
+
+.inspo-btn {
+    width: 200px;
+    height: 40px;
+    padding: 0px 40px;
+    border-radius: 5px;
+    background-color: #B88E2F;
+    color: #ffffff;
+    margin-top: 40px;
+    text-transform: capitalize;
+
+}
+
+.group {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    flex: 0 0 5em;
+    animation: spin 5s infinite linear;
+
+}
+
+@keyframes spin {
+    from {
+        translate: 0;
+    }
+
+    to {
+        translate: -100%;
+    }
+}
+
+.image-spin {
+    width: 270px;
+    height: 300px;
+    border-radius: 18px;
+    flex: 0 0 10em;
+
+}
+
+.img-s {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-top: 1px solid rgb(189, 185, 185);
+    flex-direction: row;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px;
+
+
+}
+
+.logo-links {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    gap: 20%;
+}
+
+.business-deatails {
+    width: 30%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    gap: 30px;
+}
+
+.link-form {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    width: 30%;
+    height: 180px;
+    gap: 20px;
+    /* background-color: #B88E2F; */
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+
+}
+
+.links a:hover {
+    /* border-bottom: 2px solid #B88E2F; */
+    text-decoration: underline;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 5px;
+    width: 300px;
+    background: transparent;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 280px;
+    z-index: 999;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: rgba(230, 228, 226, 0.274);
+    backdrop-filter: blur(10px);
+    padding: 20px 0px;
+    gap: 40px;
+}
+
+/* .ul-details{
+          display: flex;
+          flex-direction: column;
+          width: 500px;
+          height: 100%;
+          align-items: flex-start;
+          justify-content: flex-start;
+          gap: 50px;
+          position: fixed;
+} 
+
+
+        
+
+ .side-bar div{
+    display: flex;
+    flex-direction:column;
+    width:100%;
+    height: 100%;
+}  */
+
+
+/* responsivesness */
+@media (max-width:800px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .float {
+        left: 20%;
+        width: 60%;
+    }
+
+    .float h3 {
+        font-size: 32px;
+    }
+
+    .product-grid {
+
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .img-display {
+
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .cards {
+
+        width: 180px;
+        height: 180px;
+
+    }
+
+    .subtext {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .slider-section {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .img-slide-column {
+        width: 100%;
+    }
+
+    .column1 {
+        display: none;
+
+    }
+
+    .responsive {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .responsive p {
+        display: flex;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .responsive h1 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        padding-top: 30px;
+
+    }
+
+    .logo-links {
+
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .link-form {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+    }
+
+    .close-img {
+        display: flex;
+    }
+
+
+}
+
+
+
+
+@media (max-width:400px) {
+    .column1 {
+        display: none;
+
+    }
+
+    .close-img {
+        display: flex;
+    }
+
+    .float {
+        left: 10%;
+        width: 80%;
+        height: auto;
+        background-color: #fffbef8e;
+        display: flex;
+        backdrop-filter: blur(6px);
+
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .link-form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        gap: 30px;
+        align-items: flex-start;
+        left: 0px;
+
+    }
+
+    .product-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+@media (max-width:300px) {
+    .close-img {
+        display: flex;
+    }
+
+    .newsletter {
+
+        width: 100%;
+        display: flex;
+        flex-direction: columnn;
+    }
+    .link-form {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 20px;
+        align-items: flex-start;
+
+    }
+
+    .logo-links{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .float {
+        left: 3%;
+        width: 250px;
+        height: 300px;
+        background-color: #fffbef2c;
+        display: flex;
+        backdrop-filter: blur(9px);
+        padding: 10px 10px;
+
+    }
+.float h3 {
+    font-size: 22px;
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    
+    flex-direction: column;
+
+}
+.other-container h3{
+    font-size: 23px;
+}
+
+ .cards {
+
+        height: 120px;
+        width: 200px;
+
+    }
+
+    .menu-img{
+        left: 0;
       
-    </div>
-  </footer>
-  <script>
-
-    function showSidebar() {
-      const sidebar = document.querySelector('.sidebar')
-      sidebar.style.display = 'flex'
     }
-
-    function hideSidebar() {
-      const sidebar = document.querySelector('.sidebar')
-      sidebar.style.display = 'none'
+    .img-display{
+        width: 100%;
+        gap: 8px;
     }
-
-
-
-  </script>
-</body>
-
-</html>
+    .display h4{
+        font-size: 10px;
+    }
+}
