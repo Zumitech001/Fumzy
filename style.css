@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    min-width: 100vw;
+    min-width: 100vh;
 }
 
 nav {
@@ -114,7 +114,7 @@ nav a:hover {
 
 .other-container {
     width: 100%;
-    height: auto;
+    height: fit;
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
@@ -630,7 +630,7 @@ input {
     .cards {
 
         width: 230px;
-        height: 300px;
+        height: 230px;
 
     }
 
@@ -767,6 +767,16 @@ input {
         justify-content: space-around;
         gap: 5px;
         
+    }
+
+      .float {
+        left: 15%;
+        width: 500px;
+        height: 400px;
+        background-color: #fffbef8e;
+        display: flex;
+        backdrop-filter: blur(6px);
+
     }
 
 
