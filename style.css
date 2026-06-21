@@ -730,6 +730,9 @@ input {
     .sidebar {
         width: 100%;
     }
+    .sidebar a{
+        font-size: 26px;
+    }
 
     .link-form {
         width: 100%;
